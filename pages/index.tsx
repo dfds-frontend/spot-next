@@ -1,15 +1,9 @@
-import Link from 'next/link'
-import Layout from '../components/Layout'
+import { Button } from '@dfds-ui/react-components'
 
-const IndexPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example + DFDS Shared UI">
-    <h1>Hello Next.js 👋</h1>
-    <p>
-      <Link href="/tabledemo">
-        <a>Table demo</a>
-      </Link>
-    </p>
-  </Layout>
-)
+const IndexPage = () => {
+  return <div>
+    <Button>Hello from DFDS UI</Button>
+  </div>
+}
 
 export default IndexPage
